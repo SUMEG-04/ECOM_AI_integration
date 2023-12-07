@@ -1,0 +1,76 @@
+/* ProductPage.css */
+
+.product-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 10rem;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  position:sticky;
+  top: 80px; /* Adjust this value based on your header height */
+  background-color: #fff; /* Add a background color for visibility */
+}
+
+.sidebar h3 {
+  margin-bottom: 10px;
+}
+.sidebar-container{
+  position:sticky;
+  top: 80px;
+}
+
+.product-list {
+  flex-grow: 1;
+  padding: 20px;
+  .active{
+    background-color: black;
+    color: #fff;
+  }
+}
+
+.product-list-title {
+  margin-bottom: 20px;
+}
+
+.loading-message {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Add more styles for filter options and search bar as needed */
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select,
+input {
+  width: 10rem;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Style for product cards in the ProductList component */
+
+/* Additional styles for search bar */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .product-page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+  }
+}

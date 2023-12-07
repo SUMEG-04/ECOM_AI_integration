@@ -1,0 +1,75 @@
+/* HelpSupportForm.css */
+
+.help-support-form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .help-support-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .help-support-form input,
+  .help-support-form textarea {
+    margin: 10px;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .help-support-form button {
+    background-color: tomato;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .help-support-form button:hover {
+    background-color: tomato;
+  }
+
+
+  /* HelpSupportItem.css */
+
+.help-support-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .timestamp {
+    color: #888;
+  }
+  
+  .support-message {
+    margin: 0;
+  }
+  
+  /* HelpSupportList.css */
+
+.help-support-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px; /* Adjust based on your design */
+    margin: 20px auto;
+  }
+  
+  /* You can add more styles based on your design preferences */
+  

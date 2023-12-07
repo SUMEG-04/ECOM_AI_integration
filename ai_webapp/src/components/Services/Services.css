@@ -1,0 +1,80 @@
+.service-container {
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .service-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+  .cards-container {
+    display: flex;
+    white-space: nowrap;
+    width: calc(250px*18);
+    animation: scroll 25s linear infinite;
+    background:linear-gradient(to right,#0c0c0c,#848383);
+    position: relative; /* Add relative positioning */
+  }
+  
+  .card {
+    width: 400px;
+    height: auto; /* Change height to auto to allow content to expand */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #ccc;
+    transition: transform 1s;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-info {
+    width: 100%;
+    height: auto; /* Allow content to expand vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .service-info h4 {
+    height: auto; /* Remove fixed height */
+    top: auto; /* Remove fixed top position */
+    margin: 12px 0;
+    color: #ff5733;
+  }
+  
+  .service-info p {
+    width: 80%;
+    margin: 0;
+    display: inline;
+    color: #555;
+   line-height: 1.4;
+    white-space: normal; /* Allow text to wrap within the box */
+  }
+  
+  
+  .card:hover{
+    transform: scale(1.2);
+    transform: translateZ(20px);
+  }
+  
+  @keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{transform:translateX(calc(-250px*9))}
+  }
+  
+  

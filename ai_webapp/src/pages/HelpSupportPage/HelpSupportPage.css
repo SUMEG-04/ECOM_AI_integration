@@ -1,0 +1,17 @@
+/* HelpSupportPage.css */
+
+.help-support-page {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add more styles as needed */
+  

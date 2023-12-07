@@ -1,0 +1,36 @@
+/* AboutUs.css */
+.about-us-container {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .about-us-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .about-us-container h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+  }
+  
+  .about-us-container ul {
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  

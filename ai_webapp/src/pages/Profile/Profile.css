@@ -1,0 +1,70 @@
+/* Profile.css */
+
+.profile-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .profile-pic img{
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .profile-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color:#ff4f37; /* Change the color to your preference */
+  }
+  
+  .profile-container div {
+    margin-bottom: 15px;
+  }
+
+  .profile-details{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center; 
+  }
+  
+  .profile-container label {
+    font-weight: bold;
+    margin: 8px;
+    text-transform: capitalize;
+  }
+  
+  .profile-container input,#firstName,#lastName,#email {
+    padding: 8px;
+    font-size: large;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .profile-container button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:#ff4f37;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .profile-container button:hover {
+    background-color: #ff4f37;
+  }
+  

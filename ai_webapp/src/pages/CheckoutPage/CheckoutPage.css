@@ -1,0 +1,16 @@
+/* CheckoutPage.css */
+.checkout-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .checkout-page-title {
+    font-size: 2rem;
+  }
+  
+  .checkout-content {
+    margin-top: 20px;
+  }
+  

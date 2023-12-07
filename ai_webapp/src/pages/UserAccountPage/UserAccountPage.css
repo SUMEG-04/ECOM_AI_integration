@@ -1,0 +1,16 @@
+/* UserAccountPage.css */
+.user-account-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-account-page-title {
+    font-size: 2rem;
+  }
+  
+  .user-account-content {
+    margin-top: 20px;
+  }
+  

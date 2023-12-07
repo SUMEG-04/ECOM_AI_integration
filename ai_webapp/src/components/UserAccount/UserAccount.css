@@ -1,0 +1,48 @@
+/* UserAccount.css */
+.user-account {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-info-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .user-info-text {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .user-name {
+    color: #ff5733;
+  }
+  
+  .user-email {
+    font-weight: bold;
+  }
+  
+  .order-history {
+    flex: 1;
+  }
+  
+  .order-history-title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .order-history-empty {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Add styles for OrderHistory component here if needed */
+  

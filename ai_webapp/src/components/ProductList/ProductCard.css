@@ -1,0 +1,144 @@
+/* ProductCard.css */
+
+.products{
+  text-decoration: none;
+}
+.product-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-card {
+    width: 250px; /* Set a fixed width for the product cards */
+    height: 250px; /* Set a fixed height for the product cards */
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 16px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(179, 44, 44, 0.2);
+    display: flex;
+    flex-direction: column; /* Ensure content stacks vertically */
+    justify-content:flex-end;
+    transition: 0.2s;
+    align-items: center;
+  }
+  .product-card:hover{
+    transform:scale(1.05);
+  }
+
+  .img{
+    height: 40%;
+  }
+  .grid img{
+    width: 100% !important;
+  }
+  .main-section img{
+    width: 220px !important;
+  }
+  
+  .product-card img {
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    max-height: 100%; /* Set the maximum height to 100% of the container */
+    display: block; /* Make sure the image is a block element for proper alignment */
+    margin: 0 auto;
+  }
+  
+  .product-details {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc{
+    height: 5rem;
+    overflow:hidden;
+  }
+  
+  .product-details h3 {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .product-details p {
+    margin: 10px 0;
+  }
+  
+  .product-footer {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  .product-rating {
+    color: #f57c00;
+    font-weight: bold;
+  }
+
+  .icon{
+    color: #f57c00;
+  }
+
+  .btnStyle{
+    text-align: center;
+    width: 25px;
+    height:25px;
+    margin:2px;
+    border-radius:50px;
+    border:0px;
+    opacity: 0.5;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+  .active{
+    opacity: 1;
+  }
+  .color-style{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+  }
+  .check{
+    color: #ffffff;
+  }
+  .amount-toggle{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 5px;
+    padding: 2px;
+    .chng-amnt{
+      margin: 5px;
+      background-color: #ffffff;
+      width: 20px;
+      height: 20px;
+      border: none;
+    }
+    .chng-amnt:hover{
+      cursor: pointer;
+      background-color:tomato;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+    .amount-style{
+      font-size:20px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+  /* Style as needed */
+  
